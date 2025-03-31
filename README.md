@@ -19,7 +19,7 @@ Repositório dedicado à preservação e desenvolvimento de software para:
 
 ## 🚀 Recursos
 ### 🖥️ Ferramentas de Desenvolvimento
-- Compiladores: Turbo C++ 3.0, Borland Pascal 7.0
+- Compiladores: TurboC 2.01, Turbo C++ 3.0, Borland Pascal 7.0, masm 6.11
 - Bibliotecas para controle direto de hardware (VGA, DMA)
 - Exemplos de código para:
   - Modo gráfico 13h (320x200 256 cores)
