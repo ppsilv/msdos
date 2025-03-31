@@ -1,5 +1,5 @@
-# msdos
-# msdos: Ferramentas e Recursos para Retrocomputação em MS-DOS e PC386 🕹️💾
+# MSDOS
+# MSDOS: Ferramentas e Recursos para Retrocomputação em MS-DOS e PC386 🕹️💾
 
 [![GitHub](https://img.shields.io/github/license/ppsilv/msdos)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/ppsilv/msdos)](https://github.com/ppsilv/msdos/stargazers)
