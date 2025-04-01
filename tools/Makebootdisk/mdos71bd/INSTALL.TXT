@@ -1,0 +1,21 @@
+Installation Notes
+==================
+
+To make the Super MS-DOS 7.10 Boot Disk, please run MAKEBOOT.BAT.
+Or: use HD-COPY, WinImage or similar to WRITE (NOT copy or extract) the disk image(.IMG) to a floppy disk.
+
+Also, the disk image(.IMG) is fully compatible with virtual machines, such as VMWare and Virtual PC.
+
+For more information about this MS-DOS 7.10 boot disk, see README.TXT inside.
+
+注：请使用MAKEBOOT.BAT或HD-COPY.EXE将MSDOS710.IMG文件展开到软盘上以做成本超级MS-DOS 7.10启动盘。
+    不过，如果您在Windows NT/2K/XP系统下，则应使用WinImage来展开此镜像文件，而不能用前述程序或WinRAR来制作启动盘。
+    更详细信息，请见里面的README.TXT文件。同时欢迎与我联系！
+
+Any comments or suggestions, please contact me:
+
+E-mail: wengierwu@sohu.com
+Forum: http://dosbbs.2ya.com/
+
+==================
+Wengier, 2004-2-14
