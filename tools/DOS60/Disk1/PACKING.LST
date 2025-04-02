@@ -1,0 +1,186 @@
+Microsoft MS-DOS 6
+===================
+
+Packing List for 1.44 MB floppy disks
+-------------------------------------
+
+This file lists the contents of each of the three Setup disks.
+
+Many of the files on the three Setup disks are compressed.  The left column
+lists the file name as it appears on the disk.  The right column lists the
+file name after it has been expanded.  In some cases, the names are the same
+because some files are not compressed on the Setup disks. (For example this
+file, PACKING.LST, is not compressed).
+
+Any file which is compressed needs to be expanded before it can be used.
+All compressed files have a name in the left column which ends with the
+underscore ("_") character.  To expand a file, you can use the EXPAND
+utility.  This utility is on Setup Disk #1 (in an uncompressed form so you
+can use it), and is also copied by Setup to the MS-DOS directory on your
+hard disk. (Note: To expand files before running Setup, you must first copy
+EXPAND.EXE from Setup Disk #1 to the DOS directory on your hard disk.)
+
+For example, to expand the file 8514.VI_ from Setup Disk #1 in drive A,
+to the DOS directory on drive C, follow these steps:
+
+  - Make sure Setup Disk #1 is in drive A
+  - Type the following command at the MS-DOS command prompt:
+    EXPAND A:\8514.VI_ C:\DOS\8514.VID
+
+The MS-DOS documentation has more information about using the EXPAND utility.
+
+Setup Disk #1
+--------------
+8514.VI_                 8514.VID
+ANSI.SY_                 ANSI.SYS
+ATTRIB.EXE               ATTRIB.EXE
+AUTOEXEC.BAT             AUTOEXEC.BAT
+CGA.GR_                  CGA.GRB
+CGA.IN_                  CGA.INI
+CGA.VI_                  CGA.VID
+CHKDSK.EXE               CHKDSK.EXE
+CHOICE.COM               CHOICE.COM
+COMMAND.COM              COMMAND.COM
+CONFIG.SYS               CONFIG.SYS
+COUNTRY.SYS              COUNTRY.SYS
+DBLSPACE.BIN             DBLSPACE.BIN
+DEBUG.EXE                DEBUG.EXE
+DEFRAG.EXE               DEFRAG.EXE
+DEFRAG.HL_               DEFRAG.HLP
+DELTREE.EX_              DELTREE.EXE
+DOSSETUP.INI             DOSSETUP.INI
+DOSSWAP.EX_              DOSSWAP.EXE
+EDIT.COM                 EDIT.COM
+EGA.CP_                  EGA.CPI
+EGA.GR_                  EGA.GRB
+EGA.IN_                  EGA.INI
+EGA.SY_                  EGA.SYS
+EGA.VI_                  EGA.VID
+EGAMONO.GR_              EGAMONO.GRB
+EXPAND.EXE               EXPAND.EXE
+FDISK.EXE                FDISK.EXE
+FORMAT.COM               FORMAT.COM
+HERC.GR_                 HERC.GRB
+HERC.VI_                 HERC.VID
+HIMEM.SY_                HIMEM.SYS
+IO.SYS                   IO.SYS
+KEYB.COM                 KEYB.COM
+KEYBOARD.SYS             KEYBOARD.SYS
+MEM.EX_                  MEM.EXE
+MONO.GR_                 MONO.GRB
+MONO.IN_                 MONO.INI
+MORE.COM                 MORE.COM
+MOVE.EX_                 MOVE.EXE
+MSD.EXE                  MSD.EXE
+MSDOS.SYS                MSDOS.SYS
+NETWORKS.TXT             NETWORKS.TXT
+NLSFUNC.EXE              NLSFUNC.EXE
+PACKING.LST              PACKING.LST
+QBASIC.EXE               QBASIC.EXE
+RAMDRIVE.SY_             RAMDRIVE.SYS
+README.TXT               README.TXT
+RESTORE.EX_              RESTORE.EXE
+SETUP.EXE                SETUP.EXE
+SETUP.MSG                SETUP.MSG
+SMARTDRV.EX_             SMARTDRV.EXE
+SYS.COM                  SYS.COM
+UNFORMAT.COM             UNFORMAT.COM
+VGA.GR_                  VGA.GRB
+VGA.VI_                  VGA.VID
+VGAMONO.GR_              VGAMONO.GRB
+WINA20.38_               WINA20.386
+XCOPY.EX_                XCOPY.EXE
+
+Setup Disk #2
+--------------
+APPEND.EX_               APPEND.EXE
+COUNTRY.IC_              COUNTRY.ICE
+DISKCOMP.CO_             DISKCOMP.COM
+DISKCOPY.CO_             DISKCOPY.COM
+DISPLAY.SY_              DISPLAY.SYS
+DOSHELP.HL_              DOSHELP.HLP
+DOSKEY.CO_               DOSKEY.COM
+DOSSHELL.CO_             DOSSHELL.COM
+DOSSHELL.EX_             DOSSHELL.EXE
+DRIVER.SY_               DRIVER.SYS
+EDIT.HL_                 EDIT.HLP
+EGA.IC_                  EGA.ICE
+FASTHELP.EX_             FASTHELP.EXE
+FASTOPEN.EX_             FASTOPEN.EXE
+FC.EX_                   FC.EXE
+FIND.EX_                 FIND.EXE
+GRAPHICS.CO_             GRAPHICS.COM
+GRAPHICS.PR_             GRAPHICS.PRO
+HELP.COM                 HELP.COM
+HELP.HL_                 HELP.HLP
+KEYBOARD.IC_             KEYBOARD.ICE
+LABEL.EX_                LABEL.EXE
+LOADFIX.CO_              LOADFIX.COM
+MODE.CO_                 MODE.COM
+MSBACKFB.OVL             MSBACKFB.OVL
+MSBACKFR.OVL             MSBACKFR.OVL
+MSBACKUP.EX_             MSBACKUP.EXE
+MSBACKUP.OVL             MSBACKUP.OVL
+MWBACKF.DL_              MWBACKF.DLL
+MWBACKR.DL_              MWBACKR.DLL
+MWBACKUP.EX_             MWBACKUP.EXE
+MWBACKUP.HL_             MWBACKUP.HLP
+POWER.EX_                POWER.EXE
+PRINT.EX_                PRINT.EXE
+QBASIC.HL_               QBASIC.HLP
+REPLACE.EX_              REPLACE.EXE
+SETVER.EX_               SETVER.EXE
+SHARE.EX_                SHARE.EXE
+SMARTMON.EX_             SMARTMON.EXE
+SMARTMON.HL_             SMARTMON.HLP
+SORT.EX_                 SORT.EXE
+SUBST.EX_                SUBST.EXE
+TREE.CO_                 TREE.COM
+VFINTD.38_               VFINTD.386
+
+Setup Disk #3
+--------------
+CHKSTATE.SY_             CHKSTATE.SYS
+DBLSPACE.EX_             DBLSPACE.EXE
+DBLSPACE.HL_             DBLSPACE.HLP
+DBLSPACE.IN_             DBLSPACE.INF
+DBLSPACE.SYS             DBLSPACE.SYS
+DBLWIN.HL_               DBLWIN.HLP
+DOSSHELL.HL_             DOSSHELL.HLP
+EMM386.EX_               EMM386.EXE
+INTERLNK.EX_             INTERLNK.EXE
+INTERSVR.EX_             INTERSVR.EXE
+MEMMAKER.EXE             MEMMAKER.EXE
+MEMMAKER.HL_             MEMMAKER.HLP
+MEMMAKER.IN_             MEMMAKER.INF
+MONOUMB.38_              MONOUMB.386
+MSAV.EXE                 MSAV.EXE
+MSAV.HL_                 MSAV.HLP
+MSAVHELP.OV_             MSAVHELP.OVL
+MSAVIRUS.LS_             MSAVIRUS.LST
+MSBACKDB.OVL             MSBACKDB.OVL
+MSBACKDR.OVL             MSBACKDR.OVL
+MSBACKUP.HL_             MSBACKUP.HLP
+MSBCONFG.HL_             MSBCONFG.HLP
+MSBCONFG.OVL             MSBCONFG.OVL
+MSCDEX.EXE               MSCDEX.EXE
+MSTOOLS.DL_              MSTOOLS.DLL
+MWAV.EX_                 MWAV.EXE
+MWAV.HL_                 MWAV.HLP
+MWAVABSI.DL_             MWAVABSI.DLL
+MWAVDLG.DL_              MWAVDLG.DLL
+MWAVDOSL.DL_             MWAVDOSL.DLL
+MWAVDRVL.DL_             MWAVDRVL.DLL
+MWAVMGR.DL_              MWAVMGR.DLL
+MWAVSCAN.DL_             MWAVSCAN.DLL
+MWAVSOS.DL_              MWAVSOS.DLL
+MWAVTSR.EX_              MWAVTSR.EXE
+MWGRAFIC.DL_             MWGRAFIC.DLL
+MWUNDEL.EX_              MWUNDEL.EXE
+MWUNDEL.HL_              MWUNDEL.HLP
+SIZER.EX_                SIZER.EXE
+UNDELETE.EXE             UNDELETE.EXE
+VSAFE.CO_                VSAFE.COM
+WNTOOLS.GR_              WNTOOLS.GRP
+
+
